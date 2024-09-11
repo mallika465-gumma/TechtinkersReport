@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    /* text-transform: capitalize; */
+    transition: all .2s linear;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    color: black;
+}
+body{
+    background:rgb(254, 240, 202); 
+    overflow-x:hidden;
+    padding-left: 35rem;
+}
+header{
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 1000;
+    height: 100%; width: 35rem; background: lavender;display: flex;
+    align-items: center; justify-content: center; flex-flow: column;
+    text-align: center;
+}
+header .user img{
+    height: 17rem;
+    width: 17rem;
+    border-radius: 50%;
+    object-fit: 1rem;
+    margin-bottom: 1rem;
+    border: .7rem solid yellow;
+}
+header .user .name{
+    font-size: 3rem;
+    color: black;
+}
+header .user .post{
+    font-size: 2rem;
+    color: black;
+}
+header .navbar{
+    width: 100%;
+}
+header .navbar ul{
+    list-style: none;
+    padding: 1rem 3rem;
+}
+header .navbar ul li a{
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    background: lightslategray; color: white;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+header .navbar ul li a:hover{
+    color: bisque;
+    background-color: chocolate;
+}
+#home{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30%;
+    margin-left: 5px;
+}
+#home h1{
+font-size: 3rem;
+color: blueviolet;
+margin-left: 150px;
+margin-bottom: 10px;
+}
+#home p{
+    font-size: 28px;
+    /* color: white; */
+    margin-left: 150px;
+    line-height: 40px;
+
+}
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 18rem;
+}
+#about h1{
+    color: blueviolet;
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+hr{
+   lighting-color: yellow;
+}
+#about pre{
+    /* color: white; */
+    font-size: 28px;
+    line-height: 50px;
+}
+#education{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18rem;
+}
+#education h1{
+    color:  blueviolet;
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+#education table{
+    /* color: white; */
+    font-size: 2rem;
+    border: 1px solid white;
+}
+#education tr,th,td{
+    border: 1px solid white;
+}
+#certifications{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18rem;
+}
+#certifications h1{
+    color:  blueviolet;
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+#certifications h2{
+font-size: 28px;
+/* color: white; */
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18rem;
+}
+#contact .info1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact h2{
+    color:  blueviolet;
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+#contact .info h1{
+    font-size: 28px;
+    /* color: white; */
+    margin-right: 50px;
+}
+form{
+    border-radius: 10px;
+    background-color:lightblue;
+    width: 400px;
+    height: 300px;
+    color: black;
+    font-size: 20px;
+
+}
+footer{
+    color: black;
+    font-size: 20px;
+    border: white;
+    border-radius: 1px solid white;
+    background-color: white;
+    text-align: center;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
